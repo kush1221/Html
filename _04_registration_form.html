@@ -3,61 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
-<body style="background-color: rgb(227, 197, 255);">
-    <fieldset style="width: 1000px; margin: auto;">
+<body style="background-color: rgb(166, 147, 204);">
+   <fieldset>
         <legend align="center">
             <h3>Registration Details</h3>
         </legend>
-        <form action="#" method="get" title="" name="" align="center" >
-            <label for="fname">University : </label>
-            <input type="text" name="firstname" id="fname" required maxlength="10" minlength="3">
-            <br><br>
-            <!--  -->
-            <label for="fname">Institute : </label>
-            <input type="text" name="firstname" id="fname" required maxlength="10" minlength="3">
-            <br><br>
-            <!--  -->
-            <label for="">Branch : </label>
-            <select name="" id="">
-                <option value="">---select---</option>
-                <option value="">surat</option>
-                <option value="">valsad</option>
-                <option value="">navsari</option>
-            </select>
-            <br><br>
-            <!--  -->
-            <label for="">Degree : </label>
-            <select name="" id="">
+        <form action="_05_login_form.html" method="get" title="" name="">
+    <table border="0" cellpadding="10" cellspacing="1" align="center">
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="university">University:</label>
+            </td>
+            <td>
+                <input type="text" id="university" name="university" required minlength="3">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="institute">Institute:</label>
+            </td>
+            <td>
+                <input type="text" id="institute" name="institute" required required minlength="3">
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+                <label for="branch">Branch:</label>
+            </td>
+            <td>
+              <select name="" id="">
+                  <option value="">---select---</option>
+                  <option value="">surat</option>
+                  <option value="">valsad</option>
+                  <option value="">navsari</option>
+              </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+              <label for="Degree">Degree : </label>
+            </td>
+            <td>
+              <select name="" id="">
                 <option value="">---select---</option>
                 <option value="">B.C.A</option>
                 <option value="">B.B.A</option>
                 <option value="">B.COM</option>
             </select>
-        <!--  -->
-        <input type="radio" name="gen" id="">
+            <input type="radio" name="gen" id="">
         <label for="">pursuing</label>
         <input type="radio" name="gen" id="">
         <label for="">completed</label>
-            <br><br>
-            <!--  -->
-            <label for="">Average CPI :</label>
-            <input type="text" name="firstname" id="fname" required maxlength="10" minlength="3">
-            <label for="">Upto :</label>
-            <input type="text" name="firstname" id="fname" required maxlength="10" minlength="3">
-            <br></br>
-            <!--  -->
-            <label for="">Experiance :</label>
-            <input type="text" name="firstname" id="fname" required maxlength="10" minlength="3">
-            <label for="">years</label>
-            <br></br>
-            <!-- blog -->
+            </td>
+        </tr>
+        <tr>
+            <td align="right">
+              <label for="institute">Institute:</label>
+          </td>
+          <td>
+              <input type="text" id="institute" name="institute" required required minlength="3">
+          </td>
+        </tr>
+        <tr>
+          <td align="right">
+            <label for="institute">Average CPI:</label>
+        </td>
+        <td>
+            <input type="number" id="Average CPI" name="Average CPI" required required minlength="3">
+          <label for="institute">Upto :</label>
+          <input type="number" id="Upto" name="Upto" required required minlength="3">
+          <label for="institute">Th semester</label>
+      </td>
+    </tr>
+    <tr>
+        <td align="right">
+          <label for="Experiance">Experiance :</label>
+      </td>
+      <td>
+          <input type="number" id="Experiance" name="Experiance" required required minlength="3">
+        <label for="Years">Years</label>
+      </td>
+    </tr>
+        <tr>
+          <td>
             <label for="">Your website or Blog :</label>
+          </td>
+          <td>
             <input type="text" name="firstname" id="fname" placeholder="www.google.com" required maxlength="50" minlength="3">
-            <br></br>
-            <!-- button -->
-            <button style="height: 30px; width: 100px;background-color: tomato;" type="submit"><code style="color: white;">Register</code></button>
-    </fieldset>
+          </td>
+        </tr>
+      
+            <td colspan="2" align="center">
+              <button style="height: 30px; width: 100px; background-color: tomato;" type="submit"><code style="color: white;">Register</code></button>
+            </td>
+    </table>
+        </form>
+   </fieldset>
 </body>
 </html>
